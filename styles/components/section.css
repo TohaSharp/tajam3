@@ -88,10 +88,11 @@
   display: block;
   left: 0;
   right: 0;
-  margin: 18px auto;
+  margin: 18px auto 48px;
   width: 53px;
   height: 1px;
   background-color: #413d4b;
+  opacity: 0.3;
 }
 
 .section-body .section-description {
