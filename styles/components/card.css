@@ -1,4 +1,6 @@
 .card {
+  border-bottom: 1px;
+  border-color: #00e0d0;
 }
 
 .card-title {
@@ -11,4 +13,5 @@
 }
 
 .card-image > img {
+  height: 50px;
 }
