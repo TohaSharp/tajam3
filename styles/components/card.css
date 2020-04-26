@@ -1,6 +1,5 @@
 .card {
-  border-bottom: 1px;
-  border-color: #00e0d0;
+  padding: 36px 0;
 }
 
 .card-title {
@@ -12,6 +11,10 @@
 .card-image {
 }
 
-.card-image > img {
+.card .icon * {
   height: 50px;
+}
+
+.card .primary-center {
+  border: 1px solid #000;
 }

@@ -1,9 +1,11 @@
 .grid {
   display: flex;
-  margin: -10px;
+  flex-direction: row;
 }
-.grid > .grid-item {
-  padding: 10px;
+
+.grid-item .primary-center {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
 }
 
 .grid-large {

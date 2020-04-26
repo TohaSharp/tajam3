@@ -88,18 +88,18 @@ h2 {
 
 h3 {
   color: #ffffff;
-  font-family: "Roboto - Black";
+  font-family: "Roboto";
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 900;
   line-height: 26px;
   text-transform: uppercase;
   letter-spacing: 0.75px;
 }
 
 h4 {
-  font-family: "Roboto - Black";
+  font-family: "Roboto";
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.7px;
 }
