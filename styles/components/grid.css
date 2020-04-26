@@ -1,11 +1,23 @@
 .grid {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .grid-item .primary-center {
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
+  border-left: 1px solid #c2c2c244;
+  border-right: 1px solid #c2c2c244;
+}
+
+.grid-item .secondary-center {
+  border-left: 1px solid #c2c2c244;
+  border-right: 1px solid #c2c2c244;
+  border-top: 1px solid #c2c2c244;
+}
+
+.grid-item .secondary-left,
+.grid-item .secondary-right {
+  border-top: 1px solid #c2c2c244;
 }
 
 .grid-large {

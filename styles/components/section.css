@@ -112,7 +112,7 @@
 }
 
 .section-about .section-logo > img {
-  display: iline-block;
+  display: inline-block;
   width: 235px;
   margin-right: 100px;
 }
@@ -151,6 +151,5 @@
 }
 
 .section-card {
-  padding-bottom: 68px;
   padding-top: 38px;
 }
