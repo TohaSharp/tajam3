@@ -1,11 +1,12 @@
 .card {
-  padding: 36px 0;
+  padding: 33px 0 20px;
 }
 
 .card-title {
 }
 
 .card-description {
+  margin-bottom: 0;
 }
 
 .card-image {
@@ -13,7 +14,4 @@
 
 .card .icon * {
   height: 50px;
-}
-
-.card .primary-center {
 }

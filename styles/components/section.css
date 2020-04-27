@@ -26,6 +26,11 @@
   opacity: 0.85;
 }
 
+.section-subtitle {
+  font-family: "Playfair Display";
+  font-size: 14px;
+}
+
 .section-header {
   display: flex;
   flex-direction: row;
@@ -90,8 +95,25 @@
   right: 0;
   margin: 18px auto 0;
   width: 53px;
-  height: 1px;
+  height: 2px;
   background-color: #413d4b;
+  opacity: 0.3;
+}
+
+* .section-third-decor {
+  position: relative;
+}
+
+.section-third-decor::after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 18px auto 0;
+  width: 53px;
+  height: 2px;
+  background-color: #ffffff;
   opacity: 0.3;
 }
 
@@ -121,7 +143,7 @@
   color: #ffffff;
   font-family: "Roboto";
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.8px;
   text-align: center;
@@ -146,10 +168,14 @@
   margin: 0 auto;
 }
 
-.section-expertise {
+.section-expertise,
+.section-teams {
   text-align: center;
 }
 
 .section-card {
   padding-top: 38px;
+}
+
+.section-teams {
 }

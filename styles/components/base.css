@@ -103,3 +103,11 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 0.7px;
 }
+
+.primary-color {
+  color: #fff;
+}
+
+.secondary-color {
+  color: #413d4b;
+}
