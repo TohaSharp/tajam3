@@ -14,6 +14,7 @@
 }
 .section-background > img {
   height: 100%;
+  background-color: #c2c2c2;
 }
 .section-overlay {
   position: absolute;
@@ -24,6 +25,13 @@
   right: 0;
   background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
   opacity: 0.85;
+}
+
+.section-expertise,
+.section-teams,
+.section-video,
+.section-hero {
+  text-align: center;
 }
 
 .section-subtitle {
@@ -68,7 +76,6 @@
 
 .section-hero .section-content {
   width: 770px;
-  text-align: center;
 }
 
 .section-primary-decor::after {
@@ -117,11 +124,11 @@
   opacity: 0.3;
 }
 
-.section-body .section-description {
+.section-hero .section-description {
   margin-bottom: 50px;
 }
 
-.section-about {
+.section-body {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -131,6 +138,10 @@
 .section-about .section-content {
   width: 540px;
   text-align: left;
+}
+
+.section-about .section-body p + p {
+  margin: 36px 0 32px;
 }
 
 .section-about .section-logo > img {
@@ -146,21 +157,12 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.8px;
-  text-align: center;
   margin-top: 34px;
   margin-bottom: 0;
 }
 
 .section-video {
-  padding: 0;
-}
-
-.section-video .section-content {
   padding: 202px 0;
-}
-
-.section-icon-play {
-  margin: 0;
 }
 
 .section-icon-play .icon-play {
@@ -169,13 +171,33 @@
 }
 
 .section-expertise,
-.section-teams {
+.section-teams,
+.section-works,
+.section-video,
+.section-hero {
   text-align: center;
 }
 
-.section-card {
-  padding-top: 38px;
+.section-teams .section-card {
+  padding-top: 47px;
 }
 
-.section-teams {
+.section-teams .card {
+  padding: 0;
+}
+.section-teams .picture-caption {
+  border-top: 1px solid #fff;
+}
+
+.section-teams .section-description {
+  padding-top: 70px;
+}
+
+.section-works .section-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section-works .section-description:after {
 }

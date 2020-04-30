@@ -37,17 +37,20 @@ img {
   height: auto;
 }
 
+figure {
+  display: block;
+  margin: 0;
+}
+
 p,
 ul,
-ol,
-figure {
+ol {
   margin: 0 0 16px 0;
 }
 
 * + p,
 * + ul,
-* + ol,
-* + figure {
+* + ol {
   margin-top: 16px;
 }
 

@@ -24,10 +24,6 @@
   outline: none;
 }
 
-.button-section-about {
-  margin-top: 10px;
-}
-
 .button-primary:hover {
   color: #fff;
   background-color: #00e0d0;

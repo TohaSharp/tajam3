@@ -3,6 +3,13 @@
 }
 
 .card-title {
+  margin: 0;
+  padding: 20px 0 8px;
+}
+
+.card-subtitle {
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 .card-description {
@@ -14,4 +21,12 @@
 
 .card .icon * {
   height: 50px;
+}
+
+.card figure {
+  margin: 0;
+}
+
+.card .picture {
+  border: 1px solid #fff;
 }

@@ -20,12 +20,18 @@
   border-top: 1px solid #c2c2c244;
 }
 
-.grid-large {
+.grid-medium {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 -10px;
 }
-.grid-large .grid-item {
+.grid-medium .grid-medium-item {
+  padding: 0 10px;
 }
 
-.grid-medium {
-}
-.grid-medium .grid-item {
+.grid-small {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
