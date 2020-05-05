@@ -12,10 +12,12 @@
   right: 0;
   margin: 0;
 }
+
 .section-background > img {
   height: 100%;
   background-color: #c2c2c2;
 }
+
 .section-overlay {
   position: absolute;
   z-index: -1;
@@ -25,13 +27,6 @@
   right: 0;
   background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
   opacity: 0.85;
-}
-
-.section-expertise,
-.section-teams,
-.section-video,
-.section-hero {
-  text-align: center;
 }
 
 .section-subtitle {
@@ -176,6 +171,7 @@
 .section-video,
 .section-hero {
   text-align: center;
+  /* margin: 0 auto; */
 }
 
 .section-teams .section-card {
@@ -197,7 +193,15 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .section-works .section-description:after {
+  content: "";
+  background: url("/images/arrows-right.png") no-repeat 50%;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
 }
