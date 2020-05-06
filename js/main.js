@@ -1,3 +1,4 @@
+// SWIPER
 var swiper = new Swiper(".swiper-container", {
   navigation: {
     nextEl: ".swiper-button-next",
@@ -5,6 +6,10 @@ var swiper = new Swiper(".swiper-container", {
   },
 });
 
+// // SLICK
+$(".single-item").slick();
+
+// // BXSLIDER
 $(document).ready(function() {
   $(".slider").bxSlider();
 });
